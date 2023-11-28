@@ -34,7 +34,7 @@ print('3.Kigali Serena Hotel, it is found on an enchanting boulevard in the hear
 print('4.Ubumwe Grande Hotel, It is found in kigali and has stunning views. \n')
 print('5.The Retreat is a luxury, boutique hotel in the Kiyovu district of Kigali, Rwanda’s capital city. \n')
 print('6.Hotel des Mille collines has a fantastic location in the heart of Kigali. \n')
-print('7.villa Asimba')
+print('7.villa Asimba is Located in Kigali, 2.9 miles from Kigali Centenary Park, Villa Asimba provides accommodations with an outdoor swimming pool,free private parking,a garden. \n')
 print('8.Grand Legacy Hotel')
 print('9.Amata n'Ubuki Boutique Hotel')
 print('10.High Grand Villa')
