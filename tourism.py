@@ -37,5 +37,5 @@ while True:
     print('7.villa Asimba is Located in Kigali, 2.9 miles from Kigali Centenary Park, Villa Asimba provides accommodations with an outdoor swimming pool,free private parking,a garden. \n')
     print("8.Grand Legacy Hotelis the closest modern accommodation to Kigali International Airport. The stylish hotel is a great addition to the up and coming suburb of Remera, and a 15 minute drive to Kigali's city center. \n")
     print("9.Amata n'Ubuki Boutique Hotel is  perfect for a romantic weekend, a business trip or to taste the many flavours of their restaurant. \n")
-    print('10.High Grand Villa')
+    print('10.High Grand Villa has spectacular views of the magical hills of Rwanda as it is situation at Rebero Mountain. \n)
     break
