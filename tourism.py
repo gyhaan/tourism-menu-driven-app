@@ -26,3 +26,16 @@ while True:
     print('5.Kigali Genocide Memorial Centre: Located in the capital city, Kigali, this memorial center is dedicated to the memory of the victims of the 1994 Rwandan Genocide. It includes exhibitions, memorials, and educational programs. \n')
     print('6.Kandt House Museum: located in Kigali examining life in Rwanda before, during and after the colonial period. \n')
     break
+elif 0ption == 3:
+print('We have many luxurious hotels in Rwanda, All five stars hotels with affordable and good customercare services. \n\n')
+print('1.Raddison Blu Hotel and Convention Centre, located in Kigali and food there is top quality plus their stuff is friendly. \n')
+print('2.Marriot Hotel, It is located in Kigali and it offer exceptinal sercives, you can find here comfartable rooms,and the pool is nice. \n')
+print('3.Kigali Serena Hotel, it is found on an enchanting boulevard in the heart of Kigali in a secure location. \n')
+print('4.Ubumwe Grande Hotel, It is found in kigali and has stunning views. \n')
+print('5.The Retreat is a luxury, boutique hotel in the Kiyovu district of Kigali, Rwanda’s capital city. \n')
+print('6.Hotel des Mille collines has a fantastic location in the heart of Kigali. \n')
+print('7.villa Asimba')
+print('8.Grand Legacy Hotel')
+print('9.Amata n'Ubuki Boutique Hotel')
+print('10.High Grand Villa')
+print('0. EXIT')
