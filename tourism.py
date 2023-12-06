@@ -27,15 +27,26 @@ while True:
     print('6.Kandt House Museum: located in Kigali examining life in Rwanda before, during and after the colonial period. \n')
     break
   elif option == 3:
-    print('We have many luxurious hotels in Rwanda, All five stars hotels with affordable and good customercare services. \n\n')
+    hotel = int(input('What hotel do you prefer \n 1.5-star Hotel \n 2.4-star Hotel \n 3.3-star Hotel \n'))
+
+  if (hotel > 3 or hotel < 1 or type(option) != int):
+    print('Choose a number from 1 to 3')
+      continue
+
+  elif hotel == 1:
     print('1.Raddison Blu Hotel and Convention Centre, located in Kigali and food there is top quality plus their stuff is friendly. \n')
     print('2.Marriot Hotel, It is located in Kigali and it offer exceptinal sercives, you can find here comfartable rooms,and the pool is nice. \n')
     print('3.Kigali Serena Hotel, it is found on an enchanting boulevard in the heart of Kigali in a secure location. \n')
-    print('4.Ubumwe Grande Hotel, It is found in kigali and has stunning views. \n')
-    print('5.The Retreat is a luxury, boutique hotel in the Kiyovu district of Kigali, Rwanda’s capital city. \n')
-    print('6.Hotel des Mille collines has a fantastic location in the heart of Kigali. \n')
-    print('7.villa Asimba is Located in Kigali, 2.9 miles from Kigali Centenary Park, Villa Asimba provides accommodations with an outdoor swimming pool,free private parking,a garden. \n')
-    print("8.Grand Legacy Hotelis the closest modern accommodation to Kigali International Airport. The stylish hotel is a great addition to the up and coming suburb of Remera, and a 15 minute drive to Kigali's city center. \n")
-    print("9.Amata n'Ubuki Boutique Hotel is  perfect for a romantic weekend, a business trip or to taste the many flavours of their restaurant. \n")
-    print('10.High Grand Villa has spectacular views of the magical hills of Rwanda as it is situation at Rebero Mountain. \n)
     break
+
+  elif hotel == 2:
+    print('1.Ubumwe Grande Hotel, It is found in kigali and has stunning views. \n')
+    print('2.The Retreat is a luxury, boutique hotel in the Kiyovu district of Kigali, Rwanda’s capital city. \n')
+    print('3.Hotel des Mille collines has a fantastic location in the heart of Kigali. \n')
+    break
+
+  elif hotel == 3:
+    print("1.Amata n'Ubuki Boutique Hotel is  perfect for a romantic weekend, a business trip or to taste the many flavours of their restaurant. \n")
+    print('2.Hotel Chez Lando, It is found in kigali and has stunning views. \n')
+    break
+
