@@ -17,12 +17,12 @@ while True:
     break
   elif option == 2:
     print('we have many museums in Rwanda, each holding many cherishable and unique History of Our Country \n \n')
-    print('1.Rwanda Art Museum Situated in Nyanza, this museum showcases traditional and contemporary Rwandan art, including paintings, sculptures, and crafts \n')
-    print("2.Ethnographic Museum (formerly Butare Museum): Located in Huye (formerly Butare), this museum provides insights into Rwanda's cultural history, traditional art, and lifestyle \n")
-    print('3.Campaign Against Genocide Museum: Found in Kigali, this museum documents the history leading up to the 1994 genocide and the efforts to prevent and stop it. \n')
-    print('4.Rwanda National Police Museum: Located in Kigali, this museum focuses on the history and activities of the Rwandan National Police. \n')
+    print('1.Rwanda Art Museum Situated in Nyanza, this museum showcases traditional and contemporary Rwandan art, including paintings, sculptures, and crafts [-1.97529 S,30.17302° E] \n')
+    print("2.Ethnographic Museum (formerly Butare Museum): Located in Huye (formerly Butare), this museum provides insights into Rwanda's cultural history, traditional art, and lifestyle [48.2051° N, 16.3635° E]\n")
+    print('3.Campaign Against Genocide Museum: Found in Kigali, this museum documents the history leading up to the 1994 genocide and the efforts to prevent and stop it. [1.9524° S, 30.0989° E]\n')
+    print('4.Rwanda National Police Museum: Located in Kigali, this museum focuses on the history and activities of the Rwandan National Police. [-1.93927° S,30.05153° E] \n')
     print('5.Kigali Genocide Memorial Centre: Located in the capital city, Kigali, this memorial center is dedicated to the memory of the victims of the 1994 Rwandan Genocide. It includes exhibitions, memorials, and educational programs. \n')
-    print('6.Kandt House Museum: located in Kigali examining life in Rwanda before, during and after the colonial period. \n')
+    print('6.Kandt House Museum: located in Kigali examining life in Rwanda before, during and after the colonial period.[-1.94668° S,30.05353° E ] \n')
     break
   elif option == 3:
     print('We have many luxurious hotels in Rwanda, All five stars hotels with affordable and good customercare services. \n\n')
