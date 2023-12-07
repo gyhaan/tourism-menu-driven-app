@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from connect import TourismApp, lesly
+from connect import Tour_App, lesly
 
 
 def home():
@@ -73,10 +73,10 @@ def register():  # insert
     password = input("Enter password: ")
     data = (username, email, password)
     sql = "INSERT INTO `users`(`Email`, `Username`, `password`) VALUES (%s,%s,%s)"
-    TourismApp.execute(sql, data)
+    Tour_App.execute(sql, data)
     lesly.commit()
     # end insert data
-    if TourismApp.rowcount > 0:
+    if Tour_App.rowcount > 0:
         login()
     else:
         print("not register")
@@ -89,8 +89,8 @@ def login():  # selecet
     password = input("Enter your password: ")
     data = (username, password)
     sql = "SELECT * FROM `users` WHERE Username=%s AND password= %s"
-    TourismApp.execute(sql, data)
-    res = TourismApp.fetchall()
+    Tour_App.execute(sql, data)
+    res = Tour_App.fetchall()
     if len(res) > 0:
         home()
     else:
