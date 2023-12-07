@@ -8,8 +8,6 @@ To run the code, save it as a Python file and then execute it using the followin
 
 ## Usage
 
-Sure, here is a README file for the given code:
-
 Markdown
 # Rwanda Travel Guide
 
