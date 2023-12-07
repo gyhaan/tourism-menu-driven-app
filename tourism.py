@@ -100,7 +100,7 @@ def login():  # selecet
 
 def main():
     print("welcome to our app")
-    print("1 Create your account")
+    print("1 Create new account")
     print("2 Login")
     print("3 Exit")
     choice = input("enter your choice: ")
