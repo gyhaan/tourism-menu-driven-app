@@ -99,10 +99,10 @@ def login():  # selecet
 
 
 def main():
-    print("welcome to our app")
-    print("1 Create new account")
-    print("2 Login")
-    print("3 Exit")
+    print("Welcome to Rwanda Landmarks")
+    print("1. Create new account")
+    print("2. Login")
+    print("3. Exit")
     choice = input("enter your choice: ")
     if choice == "1":
         register()
