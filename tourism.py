@@ -83,7 +83,7 @@ def register():  # insert
         register()
 
 
-def login():  # selecet
+def login():  # select
     print("\n *********** login here ********")
     username = input("Enter your username: ")
     password = input("Enter your password: ")
